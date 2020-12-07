@@ -1,0 +1,43 @@
+.front {
+    padding-left: 44px;
+    padding-top: 79px;
+    position: relative;
+    background-image: url(/img/Ukraine.png);
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 716px;
+    top: 0;
+    
+
+
+
+    &__wrapper {
+       max-width: 450px;
+    }
+
+    h1 {
+        color: #2C81BA;
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 80px;
+
+
+    }
+
+    p {
+        color: #2C81BA;
+        width: 271px;
+        font-family: 'Roboto';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+
+
+    }
+     span {
+        background-color: #F7D20C;
+        ;
+    }
+}

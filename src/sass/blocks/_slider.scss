@@ -1,0 +1,111 @@
+.slider {
+    margin-right: 20px;
+    width: 100%;
+    min-width: 0;
+    position: relative;
+    padding-bottom: 12px;
+    position: relative;
+
+    &__first {
+        margin-left: 44px;
+        min-width: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+ 
+
+  
+
+    .slick-list {
+        overflow: hidden;
+    }
+
+    .slick-slide {
+      
+        width: 838px;
+    
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        z-index: 10px;
+        font-size: 0;
+    }
+
+    .slick-arrow.slick-prev {
+        left: 0;
+    }
+
+    .slick-arrow.slick-next {
+        right: 0;
+    }
+
+    .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slick-dots li {
+        list-style-type: none;
+        margin: 0 10px;
+    }
+
+    .slick-dots button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background-color: #9F9F9F;
+        border-radius: 100%;
+
+    }
+
+    .slick-dots li .slick-active button {
+        background-color: black;
+
+    }
+
+    ul {
+        left: 250px;
+        bottom: 12px;
+        position: absolute;
+    }
+}
+
+p {
+    width: 271px;
+    color: #2C81BA;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+p.p {
+     padding-top: 79px;
+    width: 450px;
+    color: #2C81BA;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-bottom: 19px;
+
+}
+
+span {
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 80px;
+    background: #F7D20C;
+
+}

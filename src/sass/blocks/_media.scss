@@ -1,0 +1,434 @@
+.media {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    h2.lorem {
+        min-height: 42px;
+        color: #FFFFFF;
+        background-color: #2C81BA;
+        width: 784px;
+        font-family: ' Fira Sans Extra Condensed';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+
+
+    }
+
+    h2.social {
+        background-color: #2C81BA;
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+        color: white;
+        width: 368px;
+        // padding-bottom:15px ;
+    }
+
+    a {
+        position: relative;
+        width: 368px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #516EAB;
+        margin-bottom: 10px;
+    }
+
+    .div {
+
+        margin-left: 41px;
+        width: 68px;
+        position: relative;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    p.count {
+        padding-top: 9px;
+        width: 33px;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+
+
+    }
+
+    p.fans {
+        padding-top: 8px;
+        width: 25px;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 15px;
+
+    }
+
+    p.like {
+        margin: 9px 14px 8px 0;
+        text-align: center;
+        width: 39px;
+        color: white;
+        width: 23px;
+        font-family: 'Open Sans';
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 15px;
+
+        &::before {
+            color: #FFFFFF;
+            content: '';
+            position: absolute;
+            // z-index: 1;
+            top: 8.25px;
+            right: 47px;
+            width: 2px;
+            height: 16px;
+
+
+        }
+
+
+
+    }
+
+    a.followers {
+        position: relative;
+        width: 368px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #417096;
+
+    }
+    a.followers.two{
+        position: relative;
+        width: 368px;
+        display: flex;
+        justify-content: space-between;
+        background-color:  #29C5F6;
+        
+
+    }
+    a.followers.three{
+        position: relative;
+        width: 368px;
+        display: flex;
+        justify-content: space-between;
+        background-color:  #E14E42;
+        
+        
+
+    }
+
+    .div.one {
+
+        margin-left: 41px;
+        position: relative;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    p.count.one {
+        font-family: 'Open Sans';
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+
+
+    }
+ 
+
+    p.fans.one {
+        padding-left: 10px;
+        font-family: 'Open Sans';
+        font-size: 11px;
+        font-weight: 400;
+ 
+        
+
+
+    }
+  
+
+    p.count {
+        font-family: 'Open Sans';
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+
+        
+
+
+    }
+
+    p.fans {
+        padding-top: 8px;
+        width: 25px;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 15px;
+
+    }
+
+    p.like.one {
+        text-transform: uppercase;
+        margin: 9px 14px 8px 0;
+        text-align: center;
+        width: 47px;
+        color: white;
+
+        font-family: 'Open Sans';
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 15px;
+
+        &::before {
+            color: #FFFFFF;
+            content: '';
+            position: absolute;
+            // z-index: 1;
+            top: 8.25px;
+            right: 47px;
+            width: 2px;
+            height: 16px;
+
+
+        }
+
+
+    }
+
+    .exit {
+        width: 345px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    p.t {
+        width: 229px;
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+
+
+    }
+
+    p.a {
+        width: 54px;
+        color: #AAAAAA;
+        font-family: 'Open Sans';
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 11px;
+
+
+    }
+
+    img.q {
+        width: 100px;
+    }
+
+    &__content {
+        width: 784px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+
+
+    }
+
+    img.title {
+        min-height: 260px;
+        width: 377px;
+        padding-bottom: 18px;
+    }
+    iframe {
+        margin-bottom: 16px;
+        min-height: 243px;
+        width: 377px;
+    }
+
+    &__sport {
+        width: 338px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+
+    img.ost {
+        min-height: 60px;
+    }
+
+    p {
+        width: 238px;
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+
+    }
+
+    p.yelow {
+
+        width: 72px;
+        font-family: 'Open Sans';
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        width: 84px;
+        background-color: #F7D20C;
+    }
+
+    span {
+        color: #AAAAAA;
+        position: absolute;
+        padding-left: 70px;
+        font-family: ' Open Sans';
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 11px;
+
+
+    }
+
+    &__vitya {
+        margin-bottom: 12px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3px;
+    }
+
+    p.one {
+        margin-bottom: 0;
+        width: 368px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+
+
+
+    }
+
+    p.text {
+
+        color: #B5B5B5;
+        width: 54px;
+        font-family: 'Open Sans';
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        margin-bottom: 12px;
+
+
+
+    }
+
+    p.two {
+        width: 289px;
+        margin-bottom: 5px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+
+
+    }
+
+    p.three {
+        width: 297px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    p.four {
+        width: 357px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    p.five {
+        width: 337px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    p.six {
+        width: 329px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    p.seven {
+        width: 331px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    p.eight {
+        width: 340px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    p.nine {
+        width: 328px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    p.then {
+        width: 356px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    p.eleven {
+        width: 314px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+}

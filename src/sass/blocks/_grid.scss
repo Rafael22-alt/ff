@@ -1,0 +1,25 @@
+.grid {
+   
+    &__up {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        padding-bottom:10px ;
+        
+    }
+
+    img {
+        width: 100%;
+        top: 0;
+
+    }
+
+    &__down {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 13px;
+        padding-bottom: 10px;
+    }
+
+}

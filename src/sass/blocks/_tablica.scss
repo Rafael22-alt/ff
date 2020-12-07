@@ -1,0 +1,214 @@
+.tablica {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px;
+        padding-bottom: 28px;
+    }
+
+    &__right {
+        width: 368px;
+    }
+
+    table {
+        position: relative;
+        border: 5px;
+        width: 100%;
+        text-align: center;
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        border-color: #DEE2E6;
+        margin-bottom: 5px;
+
+
+    }
+
+    th {
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+
+        height: 25px;
+    }
+
+    td {
+        position: relative;
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 12px;
+        ;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+        height: 37px;
+    }
+
+    td.green {
+        width: 26px;
+        background-color: #C7DFC8;
+
+    }
+
+    td.red {
+        width: 26px;
+        background-color: #F5C6CB;
+
+    }
+
+
+    td.f {
+
+        text-align: left;
+        padding-left: 45px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            width: 32px;
+            height: 28px;
+            background-color: #C4C4C4;
+            left: 6px;
+            top: 5px;
+
+
+        }
+
+    }
+
+    h2 {
+        background-color: #2C81BA;
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+        color: white;
+        width: 368px;
+    }
+
+    &__middle {
+        width: 368px;
+    }
+
+    &__left {
+        width: 368px;
+    }
+
+    p.date {
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13px;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+
+    &__foot {
+        position: relative;
+        width: 368px;
+        border: 1px solid #DEE2E6;
+
+
+    }
+
+    &__basket {
+        width: 368px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    p.igor {
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: center;
+        width: 184px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            width: 32px;
+            height: 28px;
+            background-color: #C4C4C4;
+            left: 5px;
+            bottom: 5px;
+
+
+        }
+        &::after {
+            padding-top: 5px;
+            content: '-';
+            color: white;
+            position: absolute;
+            z-index: 1;
+            width: 25px;
+            height: 24px;
+            background-color: #343A40;
+            left: 159px;
+            bottom: 7px;
+
+
+        }
+    }
+    
+
+    p.gari {
+        width: 184px;
+        font-family: 'Fira Sans Extra Condensed';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: center;
+        &::before {
+            padding-top: 5px;
+            content: '-';
+            color: white;
+            position: absolute;
+            z-index: 1;
+            width: 25px;
+            height: 24px;
+            background-color: #343A40;
+            left: 188px;
+            bottom: 7px;
+
+
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            width: 32px;
+            height: 28px;
+            background-color: #C4C4C4;
+            right:  5px;
+            bottom: 5px;
+
+
+        }
+  
+
+    }
+
+    .btn {
+        width: 100%;
+        background-image: none;
+        background: transparent;
+        color: #6C757D;
+        border-radius: 4px;
+        border: 2px solid #6C757D;
+        font-family: Verdana;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer
+        
+
+    }
+
+}
